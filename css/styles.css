@@ -1,0 +1,126 @@
+body {
+    font-family: "Raleway";
+    overflow-x: hidden;
+    min-width: 320px;
+}
+
+.header_sect {
+	min-height: 100vh;
+    background: url('../img/header-bg.jpg') no-repeat center;
+    background-size: cover;
+    height: 1px;
+    padding: 30px 80px;
+    position: relative;
+}
+
+.flex-row-menu {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.header_logo {
+	font-family: Pacifico;
+	color:  #262626;
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 25px;
+}
+
+.nav_menu_item{
+	display: inline;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 25px;
+	text-align: right;
+	margin-left: 40px;
+}
+
+.nav_menu_item_link {
+	text-decoration: none;
+	color:  #262626;
+	text-transform: uppercase;
+	padding: 5px;
+}
+
+.nav_menu_item_link:hover {
+    border-top: #FD5F30 3px solid;
+}
+
+.flex-col-menu {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.header_sect_title {
+	color: #262626;
+	font-size: 60px;
+	font-weight: 800;
+	line-height: 25px;
+	text-align: left;
+	margin-top: 12%;
+}
+
+.header_sect_descr {
+	color: #262626;
+	font-size: 17px; 
+	font-weight: 300;
+	line-height: 27px;
+	text-align: left;
+	margin-top: 40px;
+}
+
+.btn_orange {
+	background-color:  #ff6033;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+	width: 200px;
+	text-decoration: none;
+	color:  #ffffff;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 27px;
+	text-align: center;
+	padding: 10px 20px;
+	margin-top: 40px;
+}
+
+.header-scroll {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    }
+    
+.about_sect {
+    background: url('../img/bg_blue.jpg') no-repeat center;
+    background-size: cover;
+    height: 700px;
+	display:flex;
+	justify-content:flex-end;
+	padding:180px 80px;
+}
+
+.about_info {
+	width:40%;
+	display: flex;
+    flex-direction: column;
+} 
+
+.about_title {
+	color:  #ffffff;
+	font-size: 90px;
+	font-weight: 700;
+}
+
+.about_descr {
+color:  #ffffff;
+font-size: 17px;
+font-weight: 300;
+line-height: 27px;
+text-align: left;
+margin-top: 30px;
+}
